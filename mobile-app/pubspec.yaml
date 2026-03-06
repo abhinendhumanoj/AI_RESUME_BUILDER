@@ -1,0 +1,24 @@
+name: ai_resume_builder
+publish_to: "none"
+description: AI Resume Builder Flutter app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.3
+  google_sign_in: ^6.2.1
+  http: ^1.2.2
+  provider: ^6.1.2
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+flutter:
+  uses-material-design: true
